@@ -172,12 +172,13 @@ body{
     position: absolute;
     background-color: #AF0F0F;
     border-radius: 50%;
-    width: 18px;
-    height: 18px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content :center; 
+    width:20px; 
+    height:20px; 
+    padding: 0.7rem;
     
 }
 
@@ -443,10 +444,18 @@ body{
     justify-items: center;
 }
 
+.gridTwoItems p{
+    padding: 0.5rem;
+}
+
 .gridThreeItems{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-items: center;
+}
+
+.gridThreeItems p{
+    padding: 0.5rem;
 }
 
 .gridItem{
