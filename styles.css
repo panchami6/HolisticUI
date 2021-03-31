@@ -71,6 +71,11 @@ body{
     list-style: none;
 }
 
+.component-links:focus{
+    background-color: white;
+}
+
+
 .right-layout{
     display: grid;
     grid-template-columns: auto auto;
@@ -229,6 +234,7 @@ body{
     border: 1px solid #AF0F0F;
     border-radius: 10px;
     cursor: pointer;
+    outline: none;
 }
 
 .secondary{
@@ -238,6 +244,7 @@ body{
     border: 1px solid #f0d8d8;
     border-radius: 10px;
     cursor: pointer;
+    outline: none;
 }
 
 .btn-link{
@@ -246,6 +253,7 @@ body{
     border: 1px solid #AF0F0F ;
     border-radius: 10px;
     cursor: pointer;
+    outline: none;
 }
 
 .btn-icon{
@@ -253,6 +261,7 @@ body{
     border: none;
     padding-left: 10px;
     background-color: transparent;
+    outline: none;
 }
 
 .btn-floating-action{
@@ -263,6 +272,7 @@ body{
     border: none;
     box-shadow: 2px 5px 5px grey;
     font-size: 25px;
+    outline: none;
 }
 
 .btn-floating-action:hover{
@@ -435,8 +445,6 @@ body{
     width: 200px;
     height: 30px;
 }
-
-
 
 .gridTwoItems{
     display: grid;
