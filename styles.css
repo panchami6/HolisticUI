@@ -134,7 +134,7 @@ body{
     border: 2px solid white;
     border-radius: 50%;
     position: absolute;
-    top: 455px;
+    top: 738px;
     left: 398px;
 }
 
@@ -227,7 +227,7 @@ body{
 }
 
 
-.primary{
+.primary-btn{
     background-color: #AF0F0F;
     color: #f0d8d8;
     padding: 10px 12px;
@@ -237,7 +237,7 @@ body{
     outline: none;
 }
 
-.secondary{
+.secondary-btn{
     color: #AF0F0F;
     background-color: #f0d8d8 ;
     padding: 10px 12px;
