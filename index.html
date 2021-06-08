@@ -10,9 +10,19 @@
     <script src="https://kit.fontawesome.com/5554060c83.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="left-layout"> 
-        <label class="logo" href="/">HolisticUI</label>
-        <span><i class="fas fa-spa fa-2x"></i></span>
+    <div class = "main-div">
+        <nav class="navigation">
+            <div class = "burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div>
+                <h1 class="logo"><i class="fas fa-spa"></i> HolisticUI</h1>
+            </div>
+        </nav>
+    
+        <div class="left-layout"> 
         <ul class="component-list">
             <li class="components">
                 <a class="component-links" href="#avatarId">Avatar</a>
@@ -51,38 +61,30 @@
                 <a class="component-links" href="#snackBarId">Snackbar</a>
             </li>
         </ul>
-    </div>
-    <nav class="navigation">
-        <ul>
-            <li>
-                <a class="active" href="./index.html">Docs</a>
-            </li>
-            <li>
-                <a href="https://github.com/panchami6/HolisticUI">GitHub</a>
-            </li>
-        </ul>
-    </nav>
+        </div>
         <div class="right-layout">
             <div class="body-layout">
             <div id="avatarId" class="avatar">
                 <br />
                 <h1>Avatar</h1>
-                <p>Avatars are user profile pictures. For users who don't have profile pictures, they may use their initials for avatars.</p>
                 <br />
                 <h3>Image Avatars</h3>
-                <div>
+                <br />
+                <div class = "image-avatar">
                 <img class="avatar-big " src="./images/avatar.jpg" />
                 <img class="avatar-medium " src="./images/avatar.jpg" />
                 <img class="avatar-small " src="./images/avatar.jpg" />
                 </div>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/mnQkgfWuqBZggX5C4QGt"
-                    style="width: 656px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br />
+                <br />
                 <h3>Letter Avatars</h3>
+                <br />
                 <div class="letter">
                     <div class="letter-avatar">PT</div>
                     <div class="letter-avatar">PT
@@ -91,20 +93,22 @@
                 </div>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/TZiIioySxtNaQHQAdMXc"
-                    style="width: 479px; height: 294px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br />
+                <br />
                 <h3>Icon Avatars</h3>
+                <br />
                 <div class="icon-avatar">
                     <div><i class="far fa-user-circle fa-2x"></i></div>
                     <div><i class="far fa-envelope fa-2x"></i></div>
                 </div>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/R6iRGNtGi8tcxpQQR2vg"
-                    style="width: 614px; height: 258px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
@@ -128,19 +132,18 @@
                         <div class="badge-notification badge-bell">3</div>
                     </div>
                 </div>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/hTZpyniGAoUVZbl5eulP"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
-            <br />
-            <iframe
-                src="https://carbon.now.sh/embed/hTZpyniGAoUVZbl5eulP"
-                style="width: 715px; height: 510px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-          </iframe>
             <br />
             <hr />
             <br />
             <div id="alertId">
-                <h1>Alert</h1>
-                <br />
+                <h1>Alerts</h1>
                 <div class="alerts">
                     <div class="alert-error alert">
                         <i class="fas fa-exclamation-circle"></i>
@@ -154,14 +157,15 @@
                     <div class="alert-success alert">
                         <i class="fas fa-check-circle"></i>
                         This is a success alert — check it out!</div>
+                    <br />
+                    
                 </div>
+                <iframe
+                        class="iframe"
+                        src="https://carbon.now.sh/embed/ckcuREFgwnO6nHcX3F1L"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe> 
             </div>
-            <br />
-            <iframe
-                src="https://carbon.now.sh/embed/ckcuREFgwnO6nHcX3F1L"
-                style="width: 630px; height: 510px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
             <br />
             <hr />
             <br />
@@ -169,8 +173,8 @@
                 <h1>Buttons</h1>
                 <br />
                 <div class="buttons">
-                    <button class="primary-btn">Primary Button</button>
-                    <button class="secondary-btn">Secondary Button</button>
+                    <button class="primary-btn">Primary</button>
+                    <button class="secondary-btn">Secondary</button>
                     <button class="btn-link" href="#">Link Button</button>
                     <br />
                     <br />
@@ -187,8 +191,8 @@
             </div>
             <br />
             <iframe
+                class="iframe"
                 src="https://carbon.now.sh/embed/1cij1MGXtx1FLh29hqbV"
-                style="width: 824px; height: 546px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br />
@@ -198,17 +202,21 @@
                 <h1>Cards</h1>
                 <br />
                 <div class=cards>
+                    <h3>Vertical card</h3>
                     <div class="card card-vertical">
                         <img class="img-card" src="https://rukminim1.flixcart.com/image/612/612/kevpwnk0/resistance-tube/q/n/3/double-toning-tube-with-handles-10-kg-medium-resistance-tube-original-imafvhfh9gwpwuuq.jpeg?q=70" />
-                        <div class="card-heading">Adrenex by Flipkart Double Toning Tube with Handles- 10...
-                            <span class="card-heading-grey">Grey</span>
+                        <div class="card-text">
+                            <div class="card-heading">Adrenex by Flipkart Double Toning Tube with Handles- 10...
+                                <span class="card-heading-grey">Grey</span>
+                            </div>
+                            <div class="reviews">
+                                <div class="rating">4<i class="fas fa-star"></i></div>
+                                <div class="reviewNum">(3,050)</div>
+                            </div>
+                            <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                         </div>
-                        <div class="reviews">
-                            <div class="rating">4<i class="fas fa-star"></i></div>
-                            <div class="reviewNum">(3,050)</div>
-                        </div>
-                        <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                     </div>
+                    <h3>Horizontal card</h3>
                     <div class="card card-horizontal">
                         <img class="img-card" src="https://rukminim1.flixcart.com/image/612/612/kevpwnk0/resistance-tube/q/n/3/double-toning-tube-with-handles-10-kg-medium-resistance-tube-original-imafvhfh9gwpwuuq.jpeg?q=70" />
                         <div class="card-info">
@@ -222,6 +230,7 @@
                             <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                         </div>
                     </div>
+                    <h3>Card with badge</h3>
                     <div class="card card-with-badge">
                         <img class="img-card" src="https://rukminim1.flixcart.com/image/612/612/kevpwnk0/resistance-tube/q/n/3/double-toning-tube-with-handles-10-kg-medium-resistance-tube-original-imafvhfh9gwpwuuq.jpeg?q=70" />
                         <button class="card-heart">🤍</button>
@@ -240,20 +249,20 @@
                 </div>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/217LB4bnjHzMzaVZpBN2"
-                    style="width: 1024px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/5mX5qXUO74J3QmL78vnv"
-                    style="width: 1024px; height: 456px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/TK9JzOb1GxJqisWsXwHG"
-                    style="width: 1024px; height: 492px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br />
@@ -268,8 +277,8 @@
             </div>
             <br />
             <iframe
+                class="iframe"
                 src="https://carbon.now.sh/embed/8rS4BUSBMHvIP8gdqUDs"
-                style="width: 1024px; height: 312px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br />
@@ -277,6 +286,7 @@
             <br />
             <div id="inputsId" class="inputs">
                 <h1>Inputs</h1>
+                <br />
                 <form>
                     <div>
                         <div>Name</div>
@@ -284,10 +294,11 @@
                     </div>
                     <div class="input-error-color">
                         <div>Password*</div>
-                        <input class="input-text" type="password" />
+                        <input class="input-text" type="password" autocomplete="on" />
                         <div>Password is a required field</div>
                     </div>
                     <div>
+                        <br />
                     <label for="cars">Choose a car:</label>
                         <select class="input-select" name="cars">
                             <option value="volvo">Volvo</option>
@@ -300,8 +311,8 @@
             </div>
             <br />
             <iframe
+                class="iframe"
                 src="https://carbon.now.sh/embed/9TcpKgC60o2GKJc4wWma"
-                style="width: 588px; height: 600px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
             <br />
@@ -309,41 +320,47 @@
             <br />
             <div id="gridId">
                 <h1>Grid</h1>
-                <div class="gridTwoItems">
-                    <div class="gridItem" >
+                <br />
+                <h3>Grid with two items</h3>
+                <br />
+                <div class="grid-two-items">
+                    <div class="grid-item" >
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
-                    <div class="gridItem"> 
+                    <div class="grid-item"> 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
                 </div>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/igK7gFTAfK5GCrkwrswt"
-                    style="width: 1024px; height: 474px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <br />
-                <div class="gridThreeItems">
-                    <div class="gridItem">
+                <br />
+                <h3>Grid with three items</h3>
+                <br />
+                <div class="grid-three-items">
+                    <div class="grid-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
-                    <div class="gridItem">
+                    <div class="grid-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
-                    <div class="gridItem">
+                    <div class="grid-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
                 </div>
                 <br />
                 <iframe
+                    class="iframe"
                     src="https://carbon.now.sh/embed/TDioZvMDqwcHI5uWFFRJ"
-                    style="width: 1024px; height: 600px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
@@ -363,17 +380,17 @@
                 <div>
                     <small>This is a small text</small>
                 </div>
-                <div class="greyText">
+                <div class="grey-text">
                     <p>This is a grey text</p>
                 </div>
-                <div class="centerText">
+                <div class="center-text">
                     <p>This is a center text</p>
                 </div>
             </div>
             <br />
             <iframe
+                class="iframe"
                 src="https://carbon.now.sh/embed/EvnT6wR4M8kREOTy5b8a"
-                style="width: 512px; height: 546px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
             <hr />
@@ -391,9 +408,10 @@
                 </div>
             </div>
             <br />
+            
             <iframe
-                src="https://carbon.now.sh/embed/6hqLWK7z1Btf8wm12VlN"
-                style="width: 648px; height: 402px; border:0; transform: scale(1); overflow:hidden;"
+                class="iframe"
+                src="https://carbon.now.sh/embed/ATxvz9eAB917ti2NhVCC"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
             <hr />
@@ -405,8 +423,8 @@
             </div>
             <br />
             <iframe
+                class="iframe"
                 src="https://carbon.now.sh/embed/S3ojLHvsqeK1NhhWzHMW"
-                style="width: 597px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
             <hr />
@@ -417,21 +435,21 @@
                 <button class="primary-btn snack-btn">Click Here</button>
                 <br />
                 <br />
-                <div class="snackBar">
-                    <div>Message archieved</div>
-                    <span class="snackbar-close">X</span>
-                </div>
-            </div>
-            <iframe
+                
+                <iframe
+                class="iframe"
                 src="https://carbon.now.sh/embed/5kjgcxujALxemglfWkjW"
-                style="width: 664px; height: 384px; border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
+            <div class="snackBar">
+                <div>Message archieved</div>
+                <span class="snackbar-close">X</span>
+            </div>
+            </div>
+            
             </div>
         </div>
-    <!-- </div> -->
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
-
-<!-- This is my component library -->
