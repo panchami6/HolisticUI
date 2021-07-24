@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Holistic UI</title>
+    <title>HolisticUI</title>
+    <link class="favicon" rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
     <link href="styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/5554060c83.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="left-layout"> 
-        <label class="logo" href="/">HolisticUI</label>
-        <span><i class="fas fa-spa fa-2x"></i></span>
+    <div class = "main-div">
+        <nav class="navigation">
+            <div class = "burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div>
+                <h1 class="logo"><i class="fas fa-spa"></i> HolisticUI</h1>
+            </div>
+        </nav>
+    
+        <div class="left-layout"> 
         <ul class="component-list">
             <li class="components">
                 <a class="component-links" href="#avatarId">Avatar</a>
@@ -50,35 +61,31 @@
                 <a class="component-links" href="#snackBarId">Snackbar</a>
             </li>
         </ul>
+        </div>
     </div>
-    <nav class="navigation">
-        <ul>
-            <li>
-                <a href="#">Getting Started</a>
-            </li>
-            <li>
-                <a class="active" href="./index.html">Components</a>
-            </li>
-            <li>
-                <a href="https://github.com/panchami6/HolisticUI">GitHub</a>
-            </li>
-        </ul>
-    </nav>
         <div class="right-layout">
             <div class="body-layout">
             <div id="avatarId" class="avatar">
                 <br />
                 <h1>Avatar</h1>
-                <p>Avatars are user profile pictures. For users who don't have profile pictures, they may use their initials for avatars.</p>
                 <br />
                 <h3>Image Avatars</h3>
-                <div>
+                <br />
+                <div class = "image-avatar">
                 <img class="avatar-big " src="./images/avatar.jpg" />
                 <img class="avatar-medium " src="./images/avatar.jpg" />
                 <img class="avatar-small " src="./images/avatar.jpg" />
                 </div>
                 <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/mnQkgfWuqBZggX5C4QGt"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <br />
+                <br />
                 <h3>Letter Avatars</h3>
+                <br />
                 <div class="letter">
                     <div class="letter-avatar">PT</div>
                     <div class="letter-avatar">PT
@@ -86,11 +93,25 @@
                     </div>
                 </div>
                 <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/TZiIioySxtNaQHQAdMXc"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <br />
+                <br />
                 <h3>Icon Avatars</h3>
+                <br />
                 <div class="icon-avatar">
                     <div><i class="far fa-user-circle fa-2x"></i></div>
                     <div><i class="far fa-envelope fa-2x"></i></div>
                 </div>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/R6iRGNtGi8tcxpQQR2vg"
+                    sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
             <br />
             <hr />
@@ -112,13 +133,18 @@
                         <div class="badge-notification badge-bell">3</div>
                     </div>
                 </div>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/hTZpyniGAoUVZbl5eulP"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
             <br />
             <hr />
             <br />
             <div id="alertId">
-                <h1>Alert</h1>
-                <br />
+                <h1>Alerts</h1>
                 <div class="alerts">
                     <div class="alert-error alert">
                         <i class="fas fa-exclamation-circle"></i>
@@ -132,7 +158,14 @@
                     <div class="alert-success alert">
                         <i class="fas fa-check-circle"></i>
                         This is a success alert — check it out!</div>
+                    <br />
+                    
                 </div>
+                <iframe
+                        class="iframe"
+                        src="https://carbon.now.sh/embed/ckcuREFgwnO6nHcX3F1L"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe> 
             </div>
             <br />
             <hr />
@@ -141,8 +174,8 @@
                 <h1>Buttons</h1>
                 <br />
                 <div class="buttons">
-                    <button class="primary">Primary Button</button>
-                    <button class="secondary">Secondary Button</button>
+                    <button class="primary-btn">Primary</button>
+                    <button class="secondary-btn">Secondary</button>
                     <button class="btn-link" href="#">Link Button</button>
                     <br />
                     <br />
@@ -158,23 +191,33 @@
                 </div>
             </div>
             <br />
+            <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/1cij1MGXtx1FLh29hqbV"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br />
             <hr />
             <br />
             <div id="cardsId">
                 <h1>Cards</h1>
                 <br />
                 <div class=cards>
+                    <h3>Vertical card</h3>
                     <div class="card card-vertical">
                         <img class="img-card" src="https://rukminim1.flixcart.com/image/612/612/kevpwnk0/resistance-tube/q/n/3/double-toning-tube-with-handles-10-kg-medium-resistance-tube-original-imafvhfh9gwpwuuq.jpeg?q=70" />
-                        <div class="card-heading">Adrenex by Flipkart Double Toning Tube with Handles- 10...
-                            <span class="card-heading-grey">Grey</span>
+                        <div class="card-text">
+                            <div class="card-heading">Adrenex by Flipkart Double Toning Tube with Handles- 10...
+                                <span class="card-heading-grey">Grey</span>
+                            </div>
+                            <div class="reviews">
+                                <div class="rating">4<i class="fas fa-star"></i></div>
+                                <div class="reviewNum">(3,050)</div>
+                            </div>
+                            <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                         </div>
-                        <div class="reviews">
-                            <div class="rating">4<i class="fas fa-star"></i></div>
-                            <div class="reviewNum">(3,050)</div>
-                        </div>
-                        <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                     </div>
+                    <h3>Horizontal card</h3>
                     <div class="card card-horizontal">
                         <img class="img-card" src="https://rukminim1.flixcart.com/image/612/612/kevpwnk0/resistance-tube/q/n/3/double-toning-tube-with-handles-10-kg-medium-resistance-tube-original-imafvhfh9gwpwuuq.jpeg?q=70" />
                         <div class="card-info">
@@ -188,11 +231,12 @@
                             <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                         </div>
                     </div>
+                    <h3>Card with badge</h3>
                     <div class="card card-with-badge">
                         <img class="img-card" src="https://rukminim1.flixcart.com/image/612/612/kevpwnk0/resistance-tube/q/n/3/double-toning-tube-with-handles-10-kg-medium-resistance-tube-original-imafvhfh9gwpwuuq.jpeg?q=70" />
                         <button class="card-heart">🤍</button>
                         <div class="btn-overlay">
-                            <button class="primary">Add to Cart</button>
+                            <button class="primary-btn">Add to Cart</button>
                         </div>
                         <div class="card-heading">Adrenex by Flipkart Double Toning Tube with Handles- 10...
                             <span class="card-heading-grey">Grey</span>
@@ -204,6 +248,25 @@
                         <div class="price">₹180 <span> (₹999)</span> 81% off</div>
                     </div>
                 </div>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/217LB4bnjHzMzaVZpBN2"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/5mX5qXUO74J3QmL78vnv"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/TK9JzOb1GxJqisWsXwHG"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <br />
             </div>
             <br />
             <hr />
@@ -214,10 +277,17 @@
                 <img class="rounded-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8I4ACnYAUxGLMbBA0xklei1OF4PIPuAAC9g&usqp=CAU" />
             </div>
             <br />
+            <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/8rS4BUSBMHvIP8gdqUDs"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br />
             <hr />
             <br />
             <div id="inputsId" class="inputs">
                 <h1>Inputs</h1>
+                <br />
                 <form>
                     <div>
                         <div>Name</div>
@@ -225,10 +295,11 @@
                     </div>
                     <div class="input-error-color">
                         <div>Password*</div>
-                        <input class="input-text" type="password" />
+                        <input class="input-text" type="password" autocomplete="on" />
                         <div>Password is a required field</div>
                     </div>
                     <div>
+                        <br />
                     <label for="cars">Choose a car:</label>
                         <select class="input-select" name="cars">
                             <option value="volvo">Volvo</option>
@@ -240,35 +311,59 @@
                 </form>
             </div>
             <br />
+            <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/9TcpKgC60o2GKJc4wWma"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br />
             <hr />
             <br />
             <div id="gridId">
                 <h1>Grid</h1>
-                <div class="gridTwoItems">
-                    <div class="gridItem" >
+                <br />
+                <h3>Grid with two items</h3>
+                <br />
+                <div class="grid-two-items">
+                    <div class="grid-item" >
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
-                    <div class="gridItem"> 
+                    <div class="grid-item"> 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
                 </div>
                 <br />
-                <div class="gridThreeItems">
-                    <div class="gridItem">
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/igK7gFTAfK5GCrkwrswt"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <br />
+                <br />
+                <h3>Grid with three items</h3>
+                <br />
+                <div class="grid-three-items">
+                    <div class="grid-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
-                    <div class="gridItem">
+                    <div class="grid-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
-                    <div class="gridItem">
+                    <div class="grid-item">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekCYr8ihai5C8AQPi6lBzaB6Nzf7dpka8cQ&usqp=CAU" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias ullam doloremque quibusdam beatae odit sequi reiciendis laudantium fuga repudiandae, nam consectetur, aperiam nihil nobis eaque, eum sed voluptatibus. Rerum!</p>
                     </div>
                 </div>
+                <br />
+                <iframe
+                    class="iframe"
+                    src="https://carbon.now.sh/embed/TDioZvMDqwcHI5uWFFRJ"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
             <br />
             <hr />
@@ -286,20 +381,25 @@
                 <div>
                     <small>This is a small text</small>
                 </div>
-                <div class="greyText">
+                <div class="grey-text">
                     <p>This is a grey text</p>
                 </div>
-                <div class="centerText">
+                <div class="center-text">
                     <p>This is a center text</p>
                 </div>
             </div>
             <br />
+            <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/EvnT6wR4M8kREOTy5b8a"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
             <hr />
             <br />
-            <div  id="modalId">
+            <div id="modalId">
                 <h1>Modal</h1>
                 <br />
-                <button class="primary modal-btn">Click Me</button>
+                <button class="primary-btn modal-btn">Click Me</button>
                 <br />
                 <div class="modal-bg">
                     <div class="modal">
@@ -309,6 +409,12 @@
                 </div>
             </div>
             <br />
+            
+            <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/ATxvz9eAB917ti2NhVCC"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
             <hr />
             <br />
             <div id="sliderId" class="slidecontainer">
@@ -317,22 +423,34 @@
                 <input type="range" min="1" max="100" value="50">
             </div>
             <br />
+            <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/S3ojLHvsqeK1NhhWzHMW"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
             <hr />
             <br />
             <div id="snackBarId">
                 <h1>SnackBar</h1>
                 <br />
-                <button class="primary snack-btn">Click Here</button>
+                <button class="primary-btn snack-btn">Click Here</button>
                 <br />
                 <br />
-                <div class="snackBar">
-                    <div>Message archieved</div>
-                    <span class="snackbar-close">X</span>
-                </div>
+                
+                <iframe
+                class="iframe"
+                src="https://carbon.now.sh/embed/5kjgcxujALxemglfWkjW"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div class="snackBar">
+                <div>Message archieved</div>
+                <span class="snackbar-close">X</span>
             </div>
+            </div>
+            
             </div>
         </div>
-    <!-- </div> -->
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

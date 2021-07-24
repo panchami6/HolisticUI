@@ -21,3 +21,16 @@ snackbarClose.addEventListener("click", function(){
     snackBar.classList.remove('snack-active');
 })
 
+const navSlide = () => {
+    const burger = document.querySelector(".burger");
+    const nav = document.querySelector(".component-list");
+
+    burger.addEventListener("click", ()=> {
+        nav.classList.toggle("component-list-active");
+    }); 
+
+}
+
+navSlide();
+
+
